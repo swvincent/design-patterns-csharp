@@ -25,13 +25,12 @@ namespace RefactoringGuru.DesignPatterns.Prototype.Conceptual
         }
 
         // This was using String.Copy, but it's obsolete. Based on
-        // https://stackoverflow.com/q/2334527 I'm justing copying
-        // directly as strings are immutable. Outputs remains same.
+        // https://stackoverflow.com/q/2334527 it's not needed
+        // since strings are immutable.
         public Person DeepCopy()
         {
             Person clone = (Person) this.MemberwiseClone();
             clone.IdInfo = new IdInfo(IdInfo.IdNumber);
-            clone.Name = Name;
             return clone;
         }
     }
