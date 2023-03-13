@@ -10,11 +10,11 @@ It contains C# examples for all classic GoF design patterns. Each pattern includ
 
 ## Requirements
 
-Most examples are console apps built using .NET Core 2.0.
+Most examples are console apps built using .NET 7.
 
 For the best experience, we recommend working with examples with these IDEs:
 
-- [Visual Studio 2017 and newer](https://www.visualstudio.com/downloads/) on Windows/Mac.
+- [Visual Studio 2022 and newer](https://www.visualstudio.com/downloads/) on Windows/Mac.
 - [Visual Studio Code](https://code.visualstudio.com/) on any OS.
 - [Rider](https://www.jetbrains.com/rider/) on any OS.
 
